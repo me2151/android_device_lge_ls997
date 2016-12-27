@@ -19,7 +19,7 @@ DEVICE_PATH := device/lge/ls997
 # inherit from common v20
 -include device/lge/v20-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := ls997,elsa,h918,v20
+TARGET_OTA_ASSERT_DEVICE := ls997,elsa,h918,v20,us996
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_h918_defconfig
