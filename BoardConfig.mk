@@ -22,7 +22,7 @@ DEVICE_PATH := device/lge/ls997
 TARGET_OTA_ASSERT_DEVICE := ls997,elsa,h918,v20,us996
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_h918_defconfig
+TARGET_KERNEL_CONFIG := elsa_spr_us_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/ls997/BoardConfigVendor.mk
