@@ -12,7 +12,6 @@ ro.cdma.home.operator.alpha=Sprint
 ro.ril.telephony.mqanelements=6
 ro.telephony.default_cdma_sub=1
 ro.telephony.default_network=10
-ro.telephony.ril_class=LgeLteRIL
 telephony.lteOnCdmaDevice=1
 
 #ADB
