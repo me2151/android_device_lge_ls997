@@ -9,7 +9,7 @@ ro.cdma.home.operator.numeric=310120
 ro.cdma.home.operator.alpha=Sprint
 ro.ril.telephony.mqanelements=6
 ro.telephony.default_cdma_sub=1
-ro.telephony.default_network=10
+ro.telephony.default_network=8
 
 #ADB
 ro.secure=0
