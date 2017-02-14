@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2012, The Android Open Source Project
+** Copyright 2017, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -18,30 +18,6 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
-    <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
-         [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH or
-         [1,4,7,9] for TYPE_WIFI, TYPE_MOBILE_DUN, TYPE_BLUETOOTH and TYPE_ETHERNET-->
-    <integer-array translatable="false" name="config_tether_upstream_types">
-        <item>1</item>
-        <item>4</item>
-        <item>7</item>
-        <item>9</item>
-    </integer-array>
-
-    <!-- sms encoded as octet is decoded by utf8 decoder. if it is true -->
-    <bool name="config_sms_utf8_support">true</bool>
-
-    <!-- If this value is true, The mms content-disposition field is supported correctly.
-         If false, Content-disposition fragments are ignored -->
-    <bool name="config_mms_content_disposition_support">false</bool>
-
-    <!-- Sometimes, PDU has garbages. So, need to use valid index -->
-    <integer name="config_valid_wappush_index">4</integer>
-
-    <!-- Default network policy warning threshold, in megabytes. -->
-    <integer name="config_networkPolicyDefaultWarning">51200</integer>
 
     <!-- If the DUN connection for this CDMA device supports more than just DUN -->
     <!-- traffic you should list them here. -->
