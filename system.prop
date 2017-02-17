@@ -5,13 +5,6 @@
 # Radio
 #rild.libargs=-d /dev/smd0
 #rild.libpath=/system/lib/libreference-ril.so
-ro.cdma.home.operator.numeric=310000
+ro.cdma.home.operator.numeric=310120
 ro.cdma.home.operator.alpha=Sprint
 ro.telephony.default_cdma_sub=1
-
-#ADB
-ro.secure=0
-ro.adb.secure=0
-persist.service.adb.enable=1
-persist.service.debuggable=1
-persist.sys.usb.config=mtp,adb
