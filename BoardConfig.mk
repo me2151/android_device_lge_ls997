@@ -29,3 +29,6 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/lge/ls997/BoardConfigVendor.mk
+
+# RIL
+BOARD_RIL_CLASS += ../../../device/lge/ls997/ril/
