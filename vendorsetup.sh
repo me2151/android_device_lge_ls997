@@ -1,1 +1,1 @@
-add_lunch_combo emotion_ls997-userdebug
+add_lunch_combo pa_ls997-userdebug

@@ -22,9 +22,10 @@
 # bitrot and build breakages. Building a component unconditionally does
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
+ifeq ($(TARGET_DEVICE),ls997,elsa,us996)
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter ls997, us996, elsa,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
 endif
